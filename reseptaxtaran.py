@@ -1,7 +1,7 @@
 import requests
 
 def get_recipes(ingredients):
-    api_key = "your_api_key_here"
+    api_key = "api_elave_edin"
     url = f"https://api.spoonacular.com/recipes/findByIngredients?ingredients={','.join(ingredients)}&apiKey={api_key}"
 
     response = requests.get(url).json()
